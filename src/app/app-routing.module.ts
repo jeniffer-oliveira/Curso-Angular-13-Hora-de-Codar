@@ -6,6 +6,7 @@ import { EmitterComponent } from "./components/emitter/emitter.component";
 import { EventosComponent } from "./components/eventos/eventos.component";
 import { FirstComponentComponent } from "./components/first-component/first-component.component";
 import { IfRenderComponent } from "./components/if-render/if-render.component";
+import { ItemDetailComponent } from "./components/item-detail/item-detail.component";
 import { ListRenderComponent } from "./components/list-render/list-render.component";
 import { ParentDataComponent } from "./components/parent-data/parent-data.component";
 import { PipesComponent } from "./components/pipes/pipes.component";
@@ -14,6 +15,7 @@ import { TwoWayBindingComponent } from "./components/two-way-binding/two-way-bin
 const routes: Routes = [
     {path: 'first-component', component: FirstComponentComponent},
     {path: 'list-render', component: ListRenderComponent},
+    {path: 'list-render/:id', component: ItemDetailComponent},
     {path: 'change-number', component: ChangeNumberComponent},
     {path: 'directives', component: DirectivesComponent},
     {path: 'emitter', component: EmitterComponent},

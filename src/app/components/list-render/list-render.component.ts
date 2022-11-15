@@ -14,12 +14,6 @@ export class ListRenderComponent implements OnInit {
 
   animals: Animal[] = [];
 
-  animal: Animal = {
-    name: 'Teste',
-    type: 'Teste',
-    age: 10,
-  };
-
   animalDetails = '';
 
   constructor(private listService: ListService) {

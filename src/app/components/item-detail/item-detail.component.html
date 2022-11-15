@@ -1,0 +1,9 @@
+<!-- <p>ID: {{ animal.id}} </p>  
+ pode ser que o objeto seja indefinido pq foi iniciado com ?, solução:: 
+-->
+<div *ngIf="animal" class="classe">
+    <p>ID: {{ animal.id }}</p>
+    <h1>{{ animal.name }}</h1>
+    <p>Tipo: {{ animal.type }}</p>
+    
+</div>
