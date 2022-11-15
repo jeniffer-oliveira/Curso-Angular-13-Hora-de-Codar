@@ -12,17 +12,18 @@ import { PipesComponent } from "./components/pipes/pipes.component";
 import { TwoWayBindingComponent } from "./components/two-way-binding/two-way-binding.component";
 
 const routes: Routes = [
-    {path: '/firstcomponent', component: FirstComponentComponent},
-    {path: '/list', component: ListRenderComponent},
-    {path: '/change-number', component: ChangeNumberComponent},
-    {path: '/directives', component: DirectivesComponent},
-    {path: '/emitter', component: EmitterComponent},
-    {path: '/eventos', component: EventosComponent},
-    {path: '/if-render', component: IfRenderComponent},
-    {path: '/parent-data', component: ParentDataComponent},
-    {path: '/pipes', component: PipesComponent}, 
+    {path: 'first-component', component: FirstComponentComponent},
+    {path: 'list-render', component: ListRenderComponent},
+    {path: 'change-number', component: ChangeNumberComponent},
+    {path: 'directives', component: DirectivesComponent},
+    {path: 'emitter', component: EmitterComponent},
+    {path: 'eventos', component: EventosComponent},
+    {path: 'if-render', component: IfRenderComponent},
+    {path: 'parent-data', component: ParentDataComponent},
+    {path: 'pipes', component: PipesComponent}, 
     {path: 'two-way-data-binding', component: TwoWayBindingComponent}
 ]
+
 
 @NgModule({
     declarations: [],
