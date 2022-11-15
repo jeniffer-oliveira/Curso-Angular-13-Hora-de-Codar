@@ -1,4 +1,15 @@
 <div class="class">
     <h2>Two way data binding</h2>
+    <form>
+        <input type="text" [(ngModel)]="name"
+        name="name"
+        placeholder="Digite o seu nome">
+        <input type="submit" value="Enviar">
+    </form>
+    <!--<p>O nome é: {{ name }}</p>-->
 </div>
+<div *ngIf="name !== ''">
+    <p>O nome é: {{ name }}</p>
+</div>
+<!-- conceito de two way data binding é alterar em um lugar e refletir no outro automaticamente -->
 
